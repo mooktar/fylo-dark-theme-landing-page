@@ -22,7 +22,7 @@
   <body>
 
 	<!-- Navbar -->
-	<nav class="navbar navbar-expand navbar-light bg-light">
+	<nav class="navbar navbar-expand navbar-dark">
 		<div class="container">
 			<a href="#" class="navbar-brand">
 				<img src="./assets/images/logo.svg" class="img-fluid" alt="Fylo">
@@ -39,9 +39,9 @@
 
 	<!-- Intro -->
 	<section class="intro py-5">
-		<div class="container justify-content-center">
+		<div class="container text-center">
 			<img src="./assets/images/illustration-intro.png" class="img-fluid intro-img" alt="Intro">
-			<h2 class="hero-title">All your files in one secure location, accessible anywhere</h2>
+			<h2 class="intro-title">All your files in one secure location, accessible anywhere</h2>
 			<p class="lead intro-text">
 				Fylo stores all your most important files in one secure location.
 				Access them wherever you need, share and collaborate with friends family, and co-workers.
@@ -56,7 +56,7 @@
 		<div class="container">
 			<div class="row">
 				<!-- feature item -->
-				<div class="feature col-md-6 col-sm-12 justify-content-center">
+				<div class="feature col-md-6 col-sm-12 text-center">
 					<img src="./assets/images/icon-access-anywhere.svg" alt="Anywhere" class="img-fluid feature-img">
 					<h3 class="feature-title">Access your files, anywhere</h3>
 					<p class="feature-text">
@@ -64,7 +64,7 @@
 					</p>
 				</div>
 				<!-- feature item -->
-				<div class="feature col-md-6 col-sm-12 justify-content-center">
+				<div class="feature col-md-6 col-sm-12 text-center">
 					<img src="./assets/images/icon-security.svg" alt="Security" class="img-fluid feature-img">
 					<h3 class="feature-title">Security you can trust</h3>
 					<p class="feature-text">
@@ -72,7 +72,7 @@
 					</p>
 				</div>
 				<!-- feature item -->
-				<div class="feature col-md-6 col-sm-12 justify-content-center">
+				<div class="feature col-md-6 col-sm-12 text-center">
 					<img src="./assets/images/icon-collaboration.svg" alt="Real-time" class="img-fluid feature-img">
 					<h3 class="feature-title">Real-time collaboration</h3>
 					<p class="feature-text">
@@ -80,7 +80,7 @@
 					</p>
 				</div>
 				<!-- feature item -->
-				<div class="feature col-md-6 col-sm-12 justify-content-center">
+				<div class="feature col-md-6 col-sm-12 text-center">
 					<img src="./assets/images/icon-any-file.svg" alt="Store any file" class="img-fluid feature-img">
 					<h3 class="feature-title">Store any type of file</h3>
 					<p class="feature-text">
@@ -100,7 +100,7 @@
 					<img src="./assets/images/illustration-stay-productive.png" alt="Stay productive" class="img-fluid">
 				</div>
 
-				<div class="how-content">
+				<div class="col-md-6 how-content">
 					<h2 class="how-title">Stay productive, wherever you are</h2>
 					<p class="how-text">
 						Stay productive, wherever you are Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs.
@@ -179,17 +179,15 @@
 	<section class="cta py-5">
 		<div class="container">
 			<div class="row">
-				<div class="cta-wrapper col-md-8 mx-auto">
+				<div class="cta-wrapper col-md-8 mx-auto px-5 text-center">
 					<h2 class="cta-title">Get early access today</h2>
 					<p class="cta-text">
 						It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.
 					</p>
 					<form action="#" class="form">
 						<div class="input-group">
-							<div class="mb-3">
-							  <input type="text" class="form-control" name="email" id="email" placeholder="johnappleseed@mail.com" required>
-							  <button type="button" class="btn btn-primary">Get Started For Free</button>
-							</div>
+							<input type="text" class="form-control" name="email" id="email" placeholder="johnappleseed@mail.com" required>
+							<button type="button" class="btn btn-primary">Get Started For Free</button>
 						</div>
 					</form>
 				</div>
@@ -227,17 +225,23 @@
 				</div> <!-- /.col -->
 
 				<div class="col-md-3 footer-nav">
-					<ul class="col list-group boder-0">
-						<li class="list-item"><a href="#">About Us</a></li>
-						<li class="list-item"><a href="#">Jobs</a></li>
-						<li class="list-item"><a href="#">Press</a></li>
-						<li class="list-item"><a href="#">Blog</a></li>
-					</ul>
-					<ul class="col list-group boder-0">
-						<li class="list-item"><a href="#">Contact Us</a></li>
-						<li class="list-item"><a href="#">Termes</a></li>
-						<li class="list-item"><a href="#">Privacy</a></li>
-					</ul>
+					<div class="row">
+						<div class="col">
+							<ul class="list-group border-0">
+								<li class="list-group-item border-0"><a href="#">About Us</a></li>
+								<li class="list-group-item border-0"><a href="#">Jobs</a></li>
+								<li class="list-group-item border-0"><a href="#">Press</a></li>
+								<li class="list-group-item border-0"><a href="#">Blog</a></li>
+							</ul>
+						</div>
+						<div class="col">
+							<ul class="list-group border-0">
+								<li class="list-group-item border-0"><a href="#">Contact Us</a></li>
+								<li class="list-group-item border-0"><a href="#">Termes</a></li>
+								<li class="list-group-item border-0"><a href="#">Privacy</a></li>
+							</ul>
+						</div>
+					</div>
 				</div> <!-- /.col -->
 
 				<div class="col-md-3 footer-social">
